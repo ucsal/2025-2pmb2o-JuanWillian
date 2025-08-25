@@ -4,6 +4,6 @@ public class PartnerPolicy implements DiscountPolicy{
 
     @Override
     public double apply(double amount) {
-       return amount * 0.12;
+       return amount * 0.88;
     }
 }
